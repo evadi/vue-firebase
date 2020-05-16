@@ -6,6 +6,7 @@ src/db.js
 # local env files
 .env.local
 .env.*.local
+.firebase/*
 
 # Log files
 npm-debug.log*
