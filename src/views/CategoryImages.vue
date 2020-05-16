@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="images">
         <h1>
             {{ id }}
         </h1>
@@ -10,6 +10,25 @@
         </ul>
     </div>
 </template>
+
+<style lang="scss">
+.images {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+            margin: 0;
+            padding: 0; 
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+</style>
 
 <script>
 import { db, storage } from "../db.js"
